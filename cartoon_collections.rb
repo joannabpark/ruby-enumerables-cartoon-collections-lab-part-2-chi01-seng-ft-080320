@@ -11,7 +11,7 @@ def summon_captain_planet(planeteer_calls)
   # Return a new array of the results
   exclamation = []
   new_array = planeteer_calls.map {|string| string.capitalize}
-  exclamation = "string + '!'"
+  exclamation << "string + '!'"
 end
 
 def long_planeteer_calls(planeteer_calls)
